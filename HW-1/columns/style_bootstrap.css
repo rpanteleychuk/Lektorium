@@ -1,0 +1,16 @@
+/* Цвета пишем только в HEX формате, либо в RGBA, если нам нужна прозрачность */
+#first-column {
+  width: 100px;
+  background-color: aqua;
+  height: 100vh;
+}
+
+#second-column {
+  background-color: greenyellow;
+  height: 100vh;
+  }
+
+#third-column {
+  background-color: orange;
+  height: 100vh;
+  }

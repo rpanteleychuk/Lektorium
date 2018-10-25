@@ -1,0 +1,27 @@
+/* Цвета пишем только в HEX формате, либо в RGBA, если нам нужна прозрачность */
+body {
+  margin: 0;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+#first-column {
+  width: 100px;
+  background-color: aqua;
+}
+
+#second-column {
+  background-color: greenyellow;
+  flex-grow: 50;
+}
+
+#third-column {
+  background-color: orange;
+  flex-grow: 50;
+}
