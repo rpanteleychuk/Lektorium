@@ -1,3 +1,12 @@
+/* Xarosh!!! */
+/* https://img.devrant.com/devrant/rant/r_737022_tDaV7.jpg */
 .red {
   color: #ff0000;
+}
+
+.email,
+.phone,
+.password {
+  display: inline-block;
+  width: 100%;
 }

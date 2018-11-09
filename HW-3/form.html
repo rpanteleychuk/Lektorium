@@ -6,11 +6,19 @@
     <title>form</title>
 </head>
 <body>
-<form action="mailto:r.panteleychuk@gmail.com" method="post">
+<form action="mailto:anegamega@gmail.com" method="post">
     <fieldset>
         <legend>Про себе</legend>
-        <p><label for="name">Ім'я<span class="red">*</span> (Обов'язкове поле):</label><input id="name" name="name" type="text" placeholder="Введіть своє ім'я" required></p>
-        <p><label for="surname">Прізвище<span class="red">*</span> (Обов'язкове поле):</label><input id="surname" name="surname" type="text" placeholder="Введіть своє призвіще" required></p>
+        <!-- You should format your code. Label and input should be on separate lines. See example below. -->
+        <!-- done -->
+        <p>
+            <label for="name">Ім'я<span class="red">*</span> (Обов'язкове поле):</label>
+            <input id="name" name="name" type="text" placeholder="Введіть своє ім'я" required>
+        </p>
+        <p>
+            <label for="surname">Прізвище<span class="red">*</span> (Обов'язкове поле):</label>
+            <input id="surname" name="surname" type="text" placeholder="Введіть своє призвіще" required>
+        </p>
         <p>
             <label for="gender">Стать<span class="red">*</span> (Обов'язкове поле):</label>
             <select id="gender" name="gender" size="1" required="">
@@ -20,13 +28,18 @@
             </select>
         </p>
         <p>
-            <label for="age">Вік (лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):</label><input id="age" name="age" type="number" value="" min="18" max="48" step="1" required>
+            <!-- Need to be formatted properly. -->
+            <!-- done -->
+            <label for="age">Вік (лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):</label>
+            <input id="age" name="age" type="number" value="" min="18" max="48" step="1" required>
         </p>
     </fieldset>
     <fieldset>
         <legend>Фото</legend>
         <label for="photo">Завантажити фотографію:</label><br>
-        <input id="photo" type="file" name="photo" accept="image/*,image/jpeg">
+        <!-- "image/jpeg" is extra and need to be removed. The field can work properly with only "image/*". -->
+        <!-- done -->
+        <input id="photo" type="file" name="photo" accept="image/*">
     </fieldset>
     <fieldset>
         <legend>Дата народження</legend>
@@ -36,37 +49,63 @@
     <fieldset>
         <legend>Інша інформація</legend>
         <p>
-            <label for="email">Ваш email (Лише email адрес):</label><br>
+            <!-- Don't use <br> elements. Style html properly, so you don't need <br>. -->
+            <!-- Remove <br> in any other places. -->
+            <!-- done -->
+            <label class="email" for="email">Ваш email (Лише email адрес):</label>
             <input id="email" name="email" type="email" placeholder="Email">
         </p>
         <p>
-            <label for="phone">Ваш телефон (має складатись від 6-ти до 9-ти символів і має містити тільки цифри):</label><br>
+            <label class="phone" for="phone">Ваш телефон (має складатись від 6-ти до 9-ти символів і має містити тільки цифри):</label>
             <input id="phone" name="phone" type="tel" placeholder="Телефон" pattern="[0-9]{6,9}">
         </p>
         <p>
-            <label for="password">Пароль (пароль прихований):</label><br>
+            <label class="password" for="password">Пароль (пароль прихований):</label>
             <input id="password" name="password" type="password" placeholder="Пароль">
         </p>
         <p>
-            <label for="site">Ваш веб-сайт (лише URL адреса):</label><br>
-            <input id="site" name="site" type="url" placeholder="URL">
+            <!-- We should name ids, classes clearly. -->
+            <!-- We use this field for website url, not just a site(name, logo, url, domain, any site info). -->
+            <!-- It should be named something like "site-url", "website-url", "url"(appropriate when we DO know -->
+            <!-- that there is only one url field on the page). -->
+            <!-- done -->
+            <label for="website-site">Ваш веб-сайт (лише URL адреса):</label><br>
+            <input id="website-site" name="site" type="url" placeholder="URL">
         </p>
     </fieldset>
     <fieldset>
         <legend>Ваші улюбленні заняття</legend>
-        <p><label><input type="radio" name="hobby" value="a1">Вьорстка форм</label></p>
-        <p><label><input type="radio" name="hobby" value="a2">Компютерні ігри</label></p>
+        <!-- Need to be properly formatted. -->
+        <!-- <p> tag is not required here, so it can be deleted to make code cleaner. -->
+        <!-- Also i would prefer to use ul, not p. This is kind of a list of inputs, so we should use ul. -->
+        <!-- Two examples lower. -->
+        <!-- Labels need to have for atrtibutes, inputs - ids. -->
+        <p>
+            <label>
+                <input type="radio" name="hobby" value="a1">Вьорстка форм
+            </label>
+        </p>
+        <p>
+            <label><input type="radio" name="hobby" value="a2">Компютерні ігри</label>
+        </p>
         <p><label><input type="radio" name="hobby" value="a3">Вьорстка емейлів</label></p>
         <p><label><input type="radio" name="hobby" value="a4">Фіксить баги на сайті під iOS</label></p>
         <p><label><input type="radio" name="hobby" value="a5">Фіксить флєкса під IE</label></p>
     </fieldset>
     <fieldset>
         <legend>Що Вам не подобається в вьорсткі форм?</legend>
-        <p><label><input type="checkbox" name="irritation" value="b1">Вьорстка форм</label></p>
-        <p><label><input type="checkbox" name="irritation" value="b2">Як зверстать Drag & Drop?</label></p>
-        <p><label><input type="checkbox" name="irritation" value="b3">Імейли верстать круче</label></p>
-        <p><label><input type="checkbox" name="irritation" value="b4">Як застілить випадаючий список?</label></p>
-        <p><label><input type="checkbox" name="irritation" value="b5">Що таке форма?</label></p>
+        <!-- Need to be properly formatted. -->
+        <!-- <p> tag is not required here, so it can be deleted to make code cleaner. -->
+        <!-- Also i would prefer to use ul, not p. This is kind of a list of inputs, so we should use ul. -->
+        <!-- Two examples lower. -->
+        <!-- Labels need to have for atrtibutes, inputs - ids. -->
+        <!-- done -->
+
+        <label><input type="checkbox" name="irritation" value="b1">Вьорстка форм</label>
+        <label><input type="checkbox" name="irritation" value="b2">Як зверстать Drag & Drop?</label>
+        <label><input type="checkbox" name="irritation" value="b3">Імейли верстать круче</label>
+        <label><input type="checkbox" name="irritation" value="b4">Як застілить випадаючий список?</label>
+        <label><input type="checkbox" name="irritation" value="b5">Що таке форма?</label>
     </fieldset>
     <fieldset>
         <legend>Інше</legend>
@@ -75,20 +114,24 @@
         <p>
             <label for="other">Виберіть декілька варіантів:</label><br>
             <select id="other" name="other" size="5">
-                <option>Варіант 1</option>
-                <option>Варіант 2</option>
-                <option>Варіант 3</option>
-                <option>Варіант 4</option>
-                <option>Варіант 5</option>
-                <option>Варіант 6</option>
-                <option>Варіант 7</option>
+                <!-- Options should have value attribute. That is how we know(on the backend) which options were chosen by user. -->
+                <!-- done -->
+                <option value="c1">Варіант 1</option>
+                <option value="c2">Варіант 2</option>
+                <option value="c3">Варіант 3</option>
+                <option value="c4">Варіант 4</option>
+                <option value="c5">Варіант 5</option>
+                <option value="c6">Варіант 6</option>
+                <option value="c6">Варіант 7</option>
             </select>
         </p>
     </fieldset>
-    <p>
+    <!-- This is not a paragraph. You should use <div> because it is kind of a container for two buttons. -->
+    <!-- done -->
+    <div>
         <input type="reset" value="Зтерти данні">
         <input type="submit" value="Відправити форму">
-    </p>
+    </div>
 </form>
 </body>
 </html>
