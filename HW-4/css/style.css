@@ -1,16 +1,142 @@
-/*main style*/
-/*end main style*/
+/*****main style*/
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url("../img/header-background.png");
+  min-height: 786px;
+  padding-top: 14px;
+}
 
-/*header style*/
-/*end header style*/
+.header-container {
+  max-width: 1170px;
+  margin: auto;
+}
 
-/*content style*/
-/*end content style*/
+.main-container {
+  max-width: 1170px;
+}
+
+/*****end main style*/
+
+/*****header style*/
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+/**********main menu style*/
+
+.main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px 20px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  border-bottom: 4px solid #ff4081;
+}
+
+/**********end main menu style*/
+
+.pre-headline {
+  margin: 265px 0 35px;
+}
+
+.headline {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+/*****end header style*/
+
+/*****content style*/
+/*****end content style*/
+
+/*****footer style*/
+/*****end footer style*/
+
+/*****buttons style*/
+.header-container .btn {
+  width: 170px;
+  height: 45px;
+  box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
+  border-radius: 22px;
+  background-color: #303f9f;
+  margin-top: 93px;
+  border-style: none;
+}
 
 
-/*footer style*/
-/*end footer style*/
+/*****buttons style*/
 
+/*****all font style*/
+.logo-font {
+  width: 91px;
+  height: 18px;
+  color: #ffffff;
+  font-family: 'Montserrat:400', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-/*font style*/
-/*end font style*/
+.logo a:hover {
+  color: #ff4081;
+}
+
+.maim-menu-font {
+  color: #ffffff;
+  font-family: 'Montserrat:700', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pre-headline-font {
+  opacity: 0.7;
+  color: #ffffff;
+  font-family: 'Montserrat:400', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 27px;
+  font-variant: small-caps;
+}
+
+.headline-font {
+  color: #ffffff;
+  font-family: 'Montserrat:900', sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.btn-font {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  font-variant: small-caps;
+}
+/*****end font style*/
