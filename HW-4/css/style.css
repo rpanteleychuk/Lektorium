@@ -12,7 +12,14 @@ header {
 
 .main-container {
   max-width: 1170px;
+  margin: auto;
 }
+
+main {
+  padding-top: 90px;
+}
+
+
 
 /*****end main style*/
 
@@ -69,7 +76,24 @@ header {
 /*****end header style*/
 
 /*****content style*/
+.content-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-post {
+  width: 820px;
+}
 /*****end content style*/
+
+/*****sidebar style*/
+.sidebar {
+  width: 330px;
+}
+.sidebar li{
+  list-style: none;
+}
+/*****end sidebar style*/
 
 /*****footer style*/
 /*****end footer style*/
