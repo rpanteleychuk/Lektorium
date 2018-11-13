@@ -179,6 +179,18 @@ hr {
   margin: 35px auto 10px;
 }
 
+.form-group input {
+  display: block;
+  width: 270px;
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  opacity: 0.38; /*костыль, не разобрался с цветом плейсхолдера*/
+  padding: 0 0 0 15px;
+  margin: 15px 0;
+}
+
 
 
 /*****end sidebar style*/
@@ -208,6 +220,17 @@ hr {
   margin: 20px 20px 20px 0;
 }
 
+.btn-subcribe {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #3f51b5;
+}
+.btn-subcribe:hover {
+  background-color: #ff4081;
+  border: 4px solid #303f9f;
+  color: #303f9f;
+}
 /*****buttons style*/
 
 /*****all font style Сокращённые записи сделаю если успею*/
@@ -330,4 +353,15 @@ hr {
   text-transform: uppercase;
   letter-spacing: 1.15px;
 }
+
+.form-font {
+  opacity: 0.38;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.8px;
+}
+
 /*****end font style*/
