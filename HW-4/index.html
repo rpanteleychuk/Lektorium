@@ -1,3 +1,8 @@
+<!--TO DO
+меню дропбоксами
+перелинковать посты
+докрутить шрифты
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +45,7 @@
 
 <main>
     <div class="main-container content-flex">
-        <section>
+        <div class="right-margin">
             <article class="main-post">
                 <img src="img/post1.png" alt="main post photo">
                 <h4 class="title-post-font">10 Things To Do To Change Your Life Forever</h4>
@@ -51,7 +56,7 @@
                         <div class="userpick"><img src="img/PhotoUser1.png" title="photo author"></div>
                         <div>
                             <div class="author-font">Henry Little</div>
-                            <time class="date-font">Apri 28, 2016 10:15</time>
+                            <time datatype="2016-04-28T10:15" class="date-font">Apri 28, 2016 10:15</time>
                         </div>
                     </div>
                     <button class="author-btn" title="read more"><i class="fas fa-ellipsis-v"></i></button>
@@ -70,7 +75,7 @@
                             <div class="userpick"><img src="img/PhotoUser1.png" title="photo author"></div>
                             <div>
                                 <div class="author-font">James Leman</div>
-                                <time class="date-font">Apri 28, 2016</time>
+                                <time datatype="2016-04-28" class="date-font">Apri 28, 2016</time>
                             </div>
                         </div>
                         <button class="author-btn" title="read more"><i class="fas fa-ellipsis-v"></i></button>
@@ -87,7 +92,7 @@
                             <div class="userpick"><img src="img/PhotoUser2.png" title="photo author"></div>
                             <div>
                                 <div class="author-font">Benjamin Miller</div>
-                                <time class="date-font">Apri 28, 2016</time>
+                                <time datatype="2016-04-28" class="date-font">Apri 28, 2016</time>
                             </div>
                         </div>
                         <button class="author-btn" title="read more"><i class="fas fa-ellipsis-v"></i></button>
@@ -104,7 +109,7 @@
                             <div class="userpick"><img src="img/PhotoUser3.png" title="photo author"></div>
                             <div>
                                 <div class="author-font">Henry Little</div>
-                                <time class="date-font">Apri 28, 2016</time>
+                                <time datatype="2016-04-28" class="date-font">Apri 28, 2016</time>
                             </div>
                         </div>
                         <button class="author-btn" title="read more"><i class="fas fa-ellipsis-v"></i></button>
@@ -116,7 +121,7 @@
                 <div class="more-text">More</div>
                 <a class="more-btn" title="link read more" href=""><i class="fas fa-arrow-circle-right fa-2x"></i></a>
             </div>
-        </section>
+        </div>
 
 
         <aside class="sidebar">
@@ -124,6 +129,7 @@
                 <h4 class="sidebar-box-head-font">categories</h4>
                 <hr class="blue-line"/>
                 <ul class="pre-post-font">
+                    <!--li должны быть ссылками - не упел, или тут даже меню вертикальное можно сделать-->
                     <li>
                         <div>Photography</div>
                         <div>195</div>

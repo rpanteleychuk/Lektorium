@@ -85,7 +85,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
-.content-flex section {
+.content-flex .right-margin {
   margin-right: 15px;
 }
 
@@ -445,10 +445,10 @@ margin-left: 10px;
   line-height: 19px;
 }
 .fab:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .fas:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .fa-facebook-f {
   background: #3b5999;
