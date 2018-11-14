@@ -164,16 +164,16 @@ hr {
 }
 
 .sidebar .grey-line {
-  height: 1px;
-  background-color: #372f2b;
-  opacity: 0.1;
+  border-bottom: 1px solid #372f2b;
 }
 
+/*костыль*/
 .sidebar-category li {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 15px 0;
 }
 
 .sidebar-category ul {
@@ -212,14 +212,60 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-bottom: -3px; /*где они вылезли так и не понял*/
+  margin-bottom: -4px; /*где они вылезли так и не понял*/
 }
 .footer-slider-img img {
   width: 100%;
 }
 
-.footer-form-subscribe {
+.footer-form-subscribe form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 75px 0;
+}
+.footer-form-subscribe #email2 {
+  width: 270px;
+  height: 45px;
+  border-radius: 22px;
+  border: 1px solid #ffffff;
+  background-color: #303030;
+  opacity: 0.38;
+  padding: 0 15px;
+  color: #fff;
+}
+.footer-menu-box {
+  background-color: #303030;
+}
+/*****footer menu*/
+.footer-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.footer-menu li {
+  float: left;
+}
+
+.footer-menu li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 25px 20px;
+  text-decoration: none;
+}
+
+.footer-menu li a:hover {
+  background-color: #ff4081;
+}
+/****end footer menu*/
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /*****end footer style*/
 
@@ -235,7 +281,17 @@ hr {
 
 .btn:hover {
   background-color: #ff4081;
-  border: 4px solid #303f9f;
+  color: #303f9f;
+}
+.btn-footer {
+  box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
+  border-radius: 22px;
+  background-color: #303f9f;
+  border-style: none;
+  padding: 0 35px;
+}
+.btn-footer:hover {
+  background-color: #ff4081;
   color: #303f9f;
 }
 
@@ -310,6 +366,13 @@ margin-left: 10px;
   font-size: 40px;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.headline-font-footer {
+  color: #ffffff;
+  font-family: 'Montserrat:900', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .btn-font {
@@ -450,7 +513,7 @@ margin-left: 10px;
   border-width: 0 10px;
 }
 
-/*****social btn style*/
+/*****fontawesome btn style*/
 .fab {
   padding: 13px;
   font-size: 18px;
@@ -506,4 +569,12 @@ margin-left: 10px;
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
+}
+
+.fa-globe {
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+  background-color: #303030;
+  color: #fff;
 }

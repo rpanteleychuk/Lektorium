@@ -3,9 +3,10 @@
 TO DO
 меню дропбоксами+добавить псевдоэлемент
 перелинковать посты
-докрутить шрифты
+сделать кнопку море батоном и внутрь фонтовесом стрелку
+в сайдбаре перелинковать и сделать бордеры с отступами
 навести порядок с строчными записями шрифтов
-неизвестная хрень с фоном футера
+неизвестная хрень с фоном футера и сам фон и отступ от картинок
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -27,13 +28,13 @@ TO DO
         </div>
         <nav class="main-menu maim-menu-font">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Pages</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Components</a></li>
-                <li><a href="">Features</a></li>
+                <li><a href="" title="link home" >Home</a></li>
+                <li><a href="" title="link Portfolio">Portfolio</a></li>
+                <li><a href="" title="link Blog">Blog</a></li>
+                <li><a href="" title="link Pages">Pages</a></li>
+                <li><a href="" title="link Shop">Shop</a></li>
+                <li><a href="" title="link Components">Components</a></li>
+                <li><a href="" title="link Features">Features</a></li>
             </ul>
         </nav>
     </div>
@@ -133,26 +134,22 @@ TO DO
                 <hr class="blue-line"/>
                 <ul class="pre-post-font">
                     <!--li должны быть ссылками - не упел-->
-                    <li>
+                    <li class="grey-line">
                         <div>Photography</div>
                         <div>195</div>
                     </li>
-                    <hr class="grey-line"/>
-                    <li>
+                    <li class="grey-line">
                         <div>Illustration</div>
                         <div>15</div>
                     </li>
-                    <hr class="grey-line"/>
-                    <li>
+                    <li class="grey-line">
                         <div>Graphic Design</div>
                         <div>36</div>
                     </li>
-                    <hr class="grey-line"/>
-                    <li>
+                    <li class="grey-line">
                         <div>Web design</div>
                         <div>220</div>
                     </li>
-                    <hr class="grey-line"/>
                     <li>
                         <div>Videography</div>
                         <div>17</div>
@@ -218,12 +215,29 @@ TO DO
     <div class="footer-background">
         <div class="footer-form-subscribe main-container">
             <form>
-                <label class="" for="email2">Subscribe to our newsletter</label>
-                <input id="email2" class="" name="email" type="email" placeholder="email@adress.com" required>
-                <input class="" type="submit" value="subscribe">
+                <label class="headline-font-footer" for="email2">Subscribe to our newsletter</label>
+                <input id="email2" name="email" type="email" placeholder="Email Adress" required>
+                <button class="btn-footer btn-font" type="button">subscribe</button>
             </form>
         </div>
-
+    </div>
+    <div class="footer-menu-box">
+        <div class="main-container footer-flex">
+            <nav class="footer-menu maim-menu-font">
+                <ul>
+                    <li><a href="" title="link home" >Home</a></li>
+                    <li><a href="" title="link Portfolio">Portfolio</a></li>
+                    <li><a href="" title="link Blog">Blog</a></li>
+                    <li><a href="" title="link Pages">Pages</a></li>
+                    <li><a href="" title="link Shop">Shop</a></li>
+                    <li><a href="" title="link Components">Components</a></li>
+                    <li><a href="" title="link Features">Features</a></li>
+                </ul>
+            </nav>
+            <div class="lng-chg">
+                <a href="#" title="change the language" class="fas fa-globe">ENG</a>
+            </div>
+        </div>
     </div>
 
 </footer>
