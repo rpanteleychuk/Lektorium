@@ -200,10 +200,19 @@ hr {
   flex-direction: row;
   justify-content: space-between;
 }
-
 /*****end sidebar style*/
 
 /*****footer style*/
+.footer-slider-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.footer-slider-img img {
+  width: 100%;
+}
+
 /*****end footer style*/
 
 /*****buttons style*/
