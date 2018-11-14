@@ -4,6 +4,10 @@ header {
   min-height: 786px;
   padding-top: 14px;
 }
+.footer-background {
+  background-image: url("../img/footer-background.png");
+  min-height: 200px;
+}
 
 .header-container {
   max-width: 1170px;
@@ -208,11 +212,15 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
+  margin-bottom: -3px; /*где они вылезли так и не понял*/
 }
 .footer-slider-img img {
   width: 100%;
 }
 
+.footer-form-subscribe {
+  text-align: center;
+}
 /*****end footer style*/
 
 /*****buttons style*/
