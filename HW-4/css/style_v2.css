@@ -485,4 +485,17 @@ aside h5 {
   border-bottom: 1px solid rgba(55, 47, 43, 0.12);
 }
 
+/*DARKEN*/
+.brighten img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.brighten img:hover {
+  -webkit-filter: brightness(60%);
+}
 /*---------------------------------end effects style-------------------------------------------*/
