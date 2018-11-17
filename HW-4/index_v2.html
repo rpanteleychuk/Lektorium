@@ -43,7 +43,7 @@
 </header>
 
 <main>
-    <div class="main-container justify-space-between">
+    <div class="main-container d-flex">
         <div class="post-section">
             <div class="main-post-section">
                 <article>
@@ -58,7 +58,8 @@
                             </div>
                             <div class="post-info justify-space-between">
                                 <div class="justify-space-between">
-                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
+                                    <div class="userpic"><a href="#" title="link user profile"><img
+                                            class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
                                     <div class="post-details">
                                         <a href="#" title="link user profile"><p class="user-name">Henry Little</p></a>
                                         <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
@@ -71,7 +72,7 @@
                 </article>
             </div>
             <div class="top-post-section justify-space-between">
-                <article>
+                <article class="mrg-right">
                     <div class="post">
                         <a href="#" title="main post photo"><img class="full-img-width" src="img/post2.png"
                                                                  alt="main post photo"></a>
@@ -83,7 +84,8 @@
                             </div>
                             <div class="post-info justify-space-between">
                                 <div class="justify-space-between">
-                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser2.png" alt="user photo"></a></div>
+                                    <div class="userpic"><a href="#" title="link user profile"><img
+                                            class="full-img-width" src="img/PhotoUser2.png" alt="user photo"></a></div>
                                     <div class="post-details">
                                         <a href="#" title="link user profile"><p class="user-name">James Leman</p></a>
                                         <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
@@ -94,7 +96,7 @@
                         </div>
                     </div>
                 </article>
-                <article>
+                <article class="mrg-right">
                     <div class="post">
                         <a href="#" title="main post photo"><img class="full-img-width" src="img/post3.png"
                                                                  alt="main post photo"></a>
@@ -106,9 +108,11 @@
                             </div>
                             <div class="post-info justify-space-between">
                                 <div class="justify-space-between">
-                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser3.png" alt="user photo"></a></div>
+                                    <div class="userpic"><a href="#" title="link user profile"><img
+                                            class="full-img-width" src="img/PhotoUser3.png" alt="user photo"></a></div>
                                     <div class="post-details">
-                                        <a href="#" title="link user profile"><p class="user-name">Benjamin Miller</p></a>
+                                        <a href="#" title="link user profile"><p class="user-name">Benjamin Miller</p>
+                                        </a>
                                         <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
                                     </div>
                                 </div>
@@ -129,7 +133,8 @@
                             </div>
                             <div class="post-info justify-space-between">
                                 <div class="justify-space-between">
-                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
+                                    <div class="userpic"><a href="#" title="link user profile"><img
+                                            class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
                                     <div class="post-details">
                                         <a href="#" title="link user profile"><p class="user-name">Henry Little</p></a>
                                         <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
@@ -144,39 +149,41 @@
             <div class="more-butn-box">
                 <div>
                     <label for="more-btn">More</label>
-                    <button id="more-btn" type="button"><i  class="fas fa-arrow-right fa-x2"></i></button>
+                    <button id="more-btn" type="button"><i class="fas fa-arrow-right fa-x2"></i></button>
                 </div>
             </div>
         </div>
         <aside>
-            <div class="">
-                <p>dfsggggggggfdghgfdfddddddddddddddd</p>
+            <div class="catgr-box">
+                <h5>categories</h5>
                 <ul>
-                    <li><a><span></span><span></span></a></li>
-                    <li><a><span></span><span></span></a></li>
-                    <li><a><span></span><span></span></a></li>
-                    <li><a><span></span><span></span></a></li>
-                    <li><a><span></span><span></span></a></li>
+                    <li class="grey-line-bottom"><a class="d-flex" href="#" title="Photography"><span class="ctg-fnt">Photography</span><span class="counter-fnt">195</span></a></li>
+                    <li class="grey-line-bottom"><a class="d-flex" href="#" title="Illustration"><span class="ctg-fnt">Illustration</span><span class="counter-fnt">15</span></a></li>
+                    <li class="grey-line-bottom"><a class="d-flex" href="#" title="Graphic Design"><span class="ctg-fnt">Graphic Design</span><span class="counter-fnt">36</span></a></li>
+                    <li class="grey-line-bottom"><a class="d-flex" href="#" title="Web design"><span class="ctg-fnt">Web design</span><span class="counter-fnt">220</span></a></li>
+                    <li><a class="d-flex" href="#" title="Videography"><span class="ctg-fnt">Videography</span><span class="counter-fnt">17</span></a></li>
                 </ul>
             </div>
-            <div class="">
-                <p></p>
-                <form>
-                    <label></label>
-                    <input>
-                    <label></label>
-                    <input>
-                    <input>
+            <div class="sbc-box">
+                <h5>subscribe</h5>
+                <form action="mailto:anegamega@gmail.com" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Igor Ten" required>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="email@adress.com" required>
+                    </div>
+                    <input class="sbm-btn" type="submit" value="subscribe">
                 </form>
             </div>
-            <div class=""><p>or</p></div>
-            <div class="">
-                <a></a>
-                <a></a>
-                <a></a>
-                <a></a>
-                <a></a>
-                <a></a>
+            <div class="line-or">or</div>
+            <div class="justify-space-between">
+                <a href="#" title="link for subcribe facebook account" class="fab fa-facebook-f"></a>
+                <a href="#" title="link for subcribe twitter account" class="fab fa-twitter"></a>
+                <a href="#" title="link for subcribe vk account" class="fab fa-vk"></a>
+                <a href="#" title="link for subcribe pinterest account" class="fab fa-pinterest"></a>
+                <a href="#" title="link for subcribe tumblr account" class="fab fa-tumblr"></a>
+                <a href="#" title="link for subcribe dribbble account" class="fab fa-dribbble"></a>
             </div>
         </aside>
     </div>
