@@ -150,5 +150,8 @@ header {
   box-shadow: 0 17px 24px rgba(255, 64, 129, 1);
   color: #ff4081;
 }
+.logo h1:hover {
+  color: #ff4081;
+}
 
 /*---------------------------------end effects style-------------------------------------------*/
