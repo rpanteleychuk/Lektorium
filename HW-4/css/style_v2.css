@@ -1,47 +1,154 @@
 /*---------------------------------main style-------------------------------------------*/
+/*
+font: [font-style||font-variant||font-weight] font-size [/line-height] font-family | inherit
+font: 700 24px/36px Montserrat, sans-serif;
+body {
+  background: #8cf url('sea.jpg') no-repeat fixed bottom;
+}
+Где:
+#8cf — background-color
+url('sea.jpg') — background-image
+no-repeat — background-repeat
+fixed — background-attachment
+bottom — background-position
+
+*/
 body {
   font-size: 14px;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
+  color: inherit;
 }
+
+.main-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*---------------------------------end main style-------------------------------------------*/
 
-
-
 /*---------------------------------header style-------------------------------------------*/
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url("../img/header-background.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-top ul li {
+  display: inline-block;
+  font: 700 14px Montserrat, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.menu-top ul a {
+  padding: 25px 14px;
+}
+
+.menu-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15px;
+}
+
+.logo {
+  font: 700 24px/36px Montserrat, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.92px;
+}
+
+.main-text-box {
+  max-width: 810px;
+}
+
+.main-text-box p {
+  font: 400 small-caps 28px/27px Montserrat, sans-serif;
+  opacity: 0.7;
+  color: #fff;
+  letter-spacing: 1.4px;
+}
+
+.main-text-box h2 {
+  font: 900 40px/52px Montserrat, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  margin: 50px 0 100px;
+}
 
 /*---------------------------------end header style-------------------------------------------*/
-
-
 
 /*---------------------------------content style-------------------------------------------*/
 
 /*---------------------------------end content style-------------------------------------------*/
 
-
-
 /*---------------------------------aside style-------------------------------------------*/
 
 /*---------------------------------end aside style-------------------------------------------*/
-
-
 
 /*---------------------------------footer style-------------------------------------------*/
 
 /*---------------------------------end footer style-------------------------------------------*/
 
+/*---------------------------------button style-------------------------------------------*/
+.main-btn {
+  font: 400 small-caps 24px/36px Montserrat, sans-serif;
+  color: #fff;
+  letter-spacing: 1.2px;
+  box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
+  border-radius: 22px;
+  background-color: #303f9f;
+  border: none;
+  padding: 4px 25px 7px;
+}
 
+/*---------------------------------end button style-------------------------------------------*/
 
 /*---------------------------------fonts style-------------------------------------------*/
 
 /*---------------------------------end fonts style-------------------------------------------*/
 
+/*---------------------------------flex style-------------------------------------------*/
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 
+.justify-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*---------------------------------end flex style-------------------------------------------*/
 
 /*---------------------------------effects style-------------------------------------------*/
+.bottom-lightning a:hover {
+  border-bottom: 4px solid #ff4081;
+}
+
+.main-btn:hover {
+  box-shadow: 0 17px 24px rgba(255, 64, 129, 1);
+  color: #ff4081;
+}
 
 /*---------------------------------end effects style-------------------------------------------*/
