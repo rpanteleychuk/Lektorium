@@ -459,8 +459,6 @@ aside h5 {
 }
 
 .footer-slider-img {
-  margin: 0 auto;
-  max-width: 1920px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
