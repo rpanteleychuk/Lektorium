@@ -219,13 +219,15 @@ aside h5 {
 .footer-background form {
   padding-top: 80px;
 }
+
 .footer-form-subscribe label {
   color: #fff;
   font-family: 'Montserrat:900', sans-serif;
   font-size: 40px;
   font-weight: 900;
 }
-#email2  {
+
+#email2 {
   font: 400 16px/36px 'Open Sans', sans-serif;
   opacity: 0.54;
   color: #fff;
@@ -252,6 +254,18 @@ aside h5 {
   padding: 20px;
 }
 
+.footer-menu select {
+  font: 400 small-caps 16px/27px Montserrat, sans-serif;
+  opacity: 0.5;
+  color: #fff;
+  letter-spacing: 0.8px;
+  background: inherit;
+  border: none;
+}
+
+.footer-menu select option {
+  background-color: #303f9f;
+}
 
 /*---------------------------------end footer style-------------------------------------------*/
 
@@ -290,6 +304,7 @@ aside h5 {
   width: 100%;
   margin: 10px 0;
 }
+
 .btn-footer {
   font: 400 small-caps 24px/36px Montserrat, sans-serif;
   color: #ffffff;
@@ -341,36 +356,51 @@ aside h5 {
   border-radius: 50%;
   font-weight: 400;
 }
+
 .fab:hover {
   opacity: 0.5;
 }
+
 .fas:hover {
   opacity: 0.5;
 }
+
 .fa-facebook-f {
   background: #3b5999;
   color: #fff;
 }
+
 .fa-twitter {
   background: #55ACEE;
   color: #fff;
 }
+
 .fa-vk {
   background: #4c75a3;
   color: #fff;
 }
+
 .fa-pinterest {
   background: #ff2e56;
   color: #fff;
 }
+
 .fa-tumblr {
   background: #34465d;
   color: #fff;
 }
+
 .fa-dribbble {
   background: #ea4c89;
   color: #fff;
 }
+
+.fa-globe {
+  background: #fff;
+  color: #303030;
+  border-radius: 45%;
+}
+
 /*---------------------------------end fonts style-------------------------------------------*/
 
 /*---------------------------------flex style-------------------------------------------*/
@@ -400,6 +430,8 @@ aside h5 {
 }
 
 .footer-slider-img {
+  margin: 0 auto;
+  max-width: 1920px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -435,7 +467,7 @@ aside h5 {
   color: #ff4081;
 }
 
-.footer-menu a:hover{
+.footer-menu a:hover {
   color: #ff4081;
 }
 
