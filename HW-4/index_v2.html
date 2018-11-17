@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style_v2.css">
 </head>
 <body>
-
+<!--без pixel perfect (+-10px по макету), старался хотя бы семантично и без кучи лишнего кода-->
 <header>
     <div>
         <div class="main-container menu-top">
@@ -43,90 +43,114 @@
 </header>
 
 <main>
-    <div class="">
-        <div class="">
-            <div class="">
+    <div class="main-container justify-space-between">
+        <div class="post-section">
+            <div class="main-post-section">
                 <article>
-                    <div class="">
-                        <a><img src=""></a>
-                        <a><h4></h4></a>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <div class="">
-                            <div class=""><a><img src=""></a></div>
-                            <div class="">
-                                <a><p></p></a>
-                                <time></time>
+                    <div class="post">
+                        <a href="#" title="main post photo"><img class="full-img-width" src="img/post1.png"
+                                                                 alt="main post photo"></a>
+                        <div class="post-content">
+                            <div class="post-header grey-line-bottom">
+                                <a href="#" title="link open post"><h4>10 Things To Do To Change Your Life Forever</h4>
+                                </a>
+                                <p class="post-text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                            </div>
+                            <div class="post-info justify-space-between">
+                                <div class="justify-space-between">
+                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
+                                    <div class="post-details">
+                                        <a href="#" title="link user profile"><p class="user-name">Henry Little</p></a>
+                                        <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
+                                    </div>
+                                </div>
+                                <a href="#" class="collapse-btn" title="read more"><i class="fas fa-ellipsis-v"></i></a>
                             </div>
                         </div>
-                        <div class=""></div>
                     </div>
                 </article>
             </div>
-            <div class="">
+            <div class="top-post-section justify-space-between">
                 <article>
-                    <div class="">
-                        <a><img src=""></a>
-                        <a><h4></h4></a>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <div class="">
-                            <div class=""><a><img src=""></a></div>
-                            <div class="">
-                                <a><p></p></a>
-                                <time></time>
+                    <div class="post">
+                        <a href="#" title="main post photo"><img class="full-img-width" src="img/post2.png"
+                                                                 alt="main post photo"></a>
+                        <div class="post-content">
+                            <div class="post-header grey-line-bottom">
+                                <a href="#" title="link open post"><h4>10 Things To Do To Change Your Life Forever</h4>
+                                </a>
+                                <p class="post-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                            </div>
+                            <div class="post-info justify-space-between">
+                                <div class="justify-space-between">
+                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser2.png" alt="user photo"></a></div>
+                                    <div class="post-details">
+                                        <a href="#" title="link user profile"><p class="user-name">James Leman</p></a>
+                                        <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
+                                    </div>
+                                </div>
+                                <a href="#" class="collapse-btn" title="read more"><i class="fas fa-ellipsis-v"></i></a>
                             </div>
                         </div>
-                        <div class=""></div>
                     </div>
                 </article>
                 <article>
-                    <div class="">
-                        <a><img src=""></a>
-                        <a><h4></h4></a>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <div class="">
-                            <div class=""><a><img src=""></a></div>
-                            <div class="">
-                                <a><p></p></a>
-                                <time></time>
+                    <div class="post">
+                        <a href="#" title="main post photo"><img class="full-img-width" src="img/post3.png"
+                                                                 alt="main post photo"></a>
+                        <div class="post-content">
+                            <div class="post-header grey-line-bottom">
+                                <a href="#" title="link open post"><h4>10 Things To Do To Change Your Life Forever</h4>
+                                </a>
+                                <p class="post-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                            </div>
+                            <div class="post-info justify-space-between">
+                                <div class="justify-space-between">
+                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser3.png" alt="user photo"></a></div>
+                                    <div class="post-details">
+                                        <a href="#" title="link user profile"><p class="user-name">Benjamin Miller</p></a>
+                                        <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
+                                    </div>
+                                </div>
+                                <a href="#" class="collapse-btn" title="read more"><i class="fas fa-ellipsis-v"></i></a>
                             </div>
                         </div>
-                        <div class=""></div>
                     </div>
                 </article>
                 <article>
-                    <div class="">
-                        <a><img src=""></a>
-                        <a><h4></h4></a>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <div class="">
-                            <div class=""><a><img src=""></a></div>
-                            <div class="">
-                                <a><p></p></a>
-                                <time></time>
+                    <div class="post">
+                        <a href="#" title="main post photo"><img class="full-img-width" src="img/post4.png"
+                                                                 alt="main post photo"></a>
+                        <div class="post-content">
+                            <div class="post-header grey-line-bottom">
+                                <a href="#" title="link open post"><h4>10 Things To Do To Change Your Life Forever</h4>
+                                </a>
+                                <p class="post-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                            </div>
+                            <div class="post-info justify-space-between">
+                                <div class="justify-space-between">
+                                    <div class="userpic"><a href="#" title="link user profile"><img class="full-img-width" src="img/PhotoUser1.png" alt="user photo"></a></div>
+                                    <div class="post-details">
+                                        <a href="#" title="link user profile"><p class="user-name">Henry Little</p></a>
+                                        <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
+                                    </div>
+                                </div>
+                                <a href="#" class="collapse-btn" title="read more"><i class="fas fa-ellipsis-v"></i></a>
                             </div>
                         </div>
-                        <div class=""></div>
                     </div>
                 </article>
             </div>
-            <div class="">
-                <div class="">
-                    <p>more</p>
-                    <a></a>
+            <div class="more-butn-box">
+                <div>
+                    <label for="more-btn">More</label>
+                    <button id="more-btn" type="button"><i  class="fas fa-arrow-right fa-x2"></i></button>
                 </div>
             </div>
         </div>
         <aside>
             <div class="">
-                <p></p>
+                <p>dfsggggggggfdghgfdfddddddddddddddd</p>
                 <ul>
                     <li><a><span></span><span></span></a></li>
                     <li><a><span></span><span></span></a></li>

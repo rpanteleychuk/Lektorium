@@ -86,10 +86,74 @@ header {
   letter-spacing: 1.1px;
   margin: 50px 0 100px;
 }
-
 /*---------------------------------end header style-------------------------------------------*/
 
 /*---------------------------------content style-------------------------------------------*/
+main {
+  padding-top: 90px;
+  background-color: #f5f5f5;
+}
+.post {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.post-header {
+  padding: 20px;
+}
+.post-info {
+  padding: 20px;
+}
+
+.post h4 {
+  font: 700 18px/29px Montserrat, sans-serif;
+  opacity: 0.87;
+  color: #000;
+  letter-spacing: 0.9px;
+}
+
+.post-text {
+  font: 400 16px/26px 'Open Sans', sans-serif;
+  opacity: 0.87;
+  color: #000;
+  letter-spacing: 0.64px;
+}
+
+.post-details {
+  padding: 0 11px;
+}
+
+.top-post-section {
+  margin: 80px 0;
+}
+
+
+
+.top-post-section .post h4 {
+  font: 700 14px/24px Montserrat, sans-serif;
+  opacity: 0.87;
+  color: #000;
+  letter-spacing: 0.7px;
+}
+
+.top-post-section .post-text {
+  font: 400 14px/21px 'Open Sans', sans-serif;
+  color: #000;
+  opacity: 0.87;
+  letter-spacing: 0.56px;
+}
+
+.more-butn-box {
+  text-align: right;
+  color: #3f51b5;
+  margin-bottom: 70px;
+}
+.more-butn-box label {
+  font: 400 16px/36px Montserrat, sans-serif;
+  color: #303f9f;
+  letter-spacing: 0.8px;
+  padding: 0 10px;
+}
 
 /*---------------------------------end content style-------------------------------------------*/
 
@@ -113,10 +177,34 @@ header {
   padding: 4px 25px 7px;
 }
 
+.collapse-btn {
+  background-color: inherit;
+  border: none;
+}
+
+#more-btn {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  padding: 13px;
+  color: #3f51b5;
+}
 /*---------------------------------end button style-------------------------------------------*/
 
 /*---------------------------------fonts style-------------------------------------------*/
-
+.user-name {
+  font: 700 14px/27px Montserrat, sans-serif;
+  opacity: 0.87;
+  color: #000;
+  letter-spacing: 0.7px;
+}
+.post-date {
+  font: 400 12px/27px Montserrat, sans-serif;
+  opacity: 0.54;
+  color: #212121;
+  letter-spacing: 0.6px;
+}
 /*---------------------------------end fonts style-------------------------------------------*/
 
 /*---------------------------------flex style-------------------------------------------*/
@@ -139,6 +227,11 @@ header {
   text-align: center;
 }
 
+.full-img-width {
+  width: 100%;
+}
+
+
 /*---------------------------------end flex style-------------------------------------------*/
 
 /*---------------------------------effects style-------------------------------------------*/
@@ -152,6 +245,15 @@ header {
 }
 .logo h1:hover {
   color: #ff4081;
+}
+
+#more-btn:hover {
+  color: #ff4081;
+  background-color: #3f51b5;
+}
+
+.grey-line-bottom {
+  border-bottom: 1px solid rgba(55, 47, 43, 0.12);
 }
 
 /*---------------------------------end effects style-------------------------------------------*/
