@@ -11,10 +11,36 @@
     <link rel="stylesheet" href="./css/style_v2.css">
 </head>
 <body>
-<!--без pixel perfect (+-10px по макету), старался хотя бы семантично и без кучи лишнего кода-->
-<!--validator.w3.org Document checking completed. No errors or warnings to show.-->
+
 <header>
-    <div>
+    <div class="main-fix-menu">
+        <div class="main-container justify-space-between">
+            <ul class="d-flex">
+                <li><a href="#" title="link for subcribe facebook account"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" title="link for subcribe twitter account"></a><i class="fab fa-twitter"></i></li>
+                <li><a href="#" title="link for subcribe pinterest account"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#" title="link for subcribe vk account"></a><i class="fab fa-vk"></i></li>
+                <li><a href="#" title="link for subcribe google plus account"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#" title="link for subcribe behance account"><i class="fab fa-behance"></i></a></li>
+                <li><a href="#" title="link for subcribe dribbble account"><i class="fab fa-dribbble"></i></a></li>
+                <li><a href="#" title="link for subcribe instagram account"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <div class="d-flex">
+                <div class="sign-in">
+                        <a href="#" title="link for sign in"><i class="fas fa-user-circle"></i> sign in</a>
+                </div>
+                <div class="justify-space-between">
+                    <i class="fas fa-globe"></i>
+                    <select name="gender" size="1">
+                        <option selected value="1">ENG</option>
+                        <option value="2">RU</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="headstyle">
         <div class="main-container menu-top">
             <nav class="justify-space-between">
                 <div class="logo"><a href="#" title="Home link"><h1>pasco</h1></a></div>
@@ -41,6 +67,7 @@
             </div>
         </div>
     </div>
+
 </header>
 
 <main>
@@ -112,7 +139,8 @@
                                     <div class="userpic"><a href="#" title="link user profile"><img
                                             class="full-img-width" src="img/PhotoUser3.png" alt="user photo"></a></div>
                                     <div class="post-details">
-                                        <a href="#" title="link user profile"><p class="user-name">Benjamin Miller</p></a>
+                                        <a href="#" title="link user profile"><p class="user-name">Benjamin Miller</p>
+                                        </a>
                                         <div class="post-date"><p>Apri 28, 2016 10:15</p></div>
                                     </div>
                                 </div>
@@ -229,10 +257,10 @@
             </nav>
             <div class="justify-space-between">
                 <i class="fas fa-globe"></i>
-            <select id="gender" name="gender" size="1" required>
-                <option selected value="">Eng</option>
-                <option value="1">Ru</option>
-            </select>
+                <select name="gender" size="1">
+                    <option selected value="1">ENG</option>
+                    <option value="2">RU</option>
+                </select>
             </div>
         </div>
     </div>
