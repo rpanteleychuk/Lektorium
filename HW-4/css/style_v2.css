@@ -162,7 +162,7 @@ main {
   letter-spacing: 0.9px;
 }
 
-.post-text {
+.main-post-section .post-text {
   font: 400 16px/26px 'Open Sans', sans-serif;
   opacity: 0.87;
   color: #000;
@@ -183,7 +183,7 @@ main {
   letter-spacing: 0.7px;
 }
 
-.top-post-section .post-text {
+.post-text {
   font: 400 14px/21px 'Open Sans', sans-serif;
   color: #000;
   opacity: 0.87;
