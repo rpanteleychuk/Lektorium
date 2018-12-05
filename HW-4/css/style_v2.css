@@ -140,9 +140,8 @@ body {
 }
 
 .filter-section li {
-  font: 700 small-caps 11px/27px Montserrat, sans-serif;
+  font: 700 small-caps 16px/27px Montserrat, sans-serif;
   letter-spacing: 0.8px;
-  text-transform: uppercase;
   display: inline-block;
   padding: 5px 30px;
   border-radius: 20px;
