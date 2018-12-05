@@ -160,10 +160,7 @@ body {
   margin-right: 20px;
 }
 
-
 /*---------------------------------end filter style-------------------------------------------*/
-
-
 
 /*---------------------------------content style-------------------------------------------*/
 main {
@@ -264,6 +261,27 @@ aside {
   padding: 0 30px;
   background-color: #fff;
   max-width: 330px;
+}
+
+.search-form input {
+  font: 400 16px/36px 'Open Sans', sans-serif;
+  padding-left: 10px;
+  margin-top: 20px;
+  border-radius: 22px;
+  border: none;
+  height: 45px;
+  background-color: #f5f5f5;
+  width: 270px;
+}
+
+.search-form button {
+  border: none;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 2px 13px rgba(0, 0, 0, 0.12);
+  background-color: #ff4081;
+  border-radius: 22px;
+  margin-left: -45px;
 }
 
 aside h5 {
