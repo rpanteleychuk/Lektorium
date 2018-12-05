@@ -126,9 +126,48 @@ body {
 
 /*---------------------------------end header style-------------------------------------------*/
 
+/*---------------------------------filter style-------------------------------------------*/
+.filter-section {
+  box-shadow: 0 1px 0 #ddd;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.filter-section .main-container {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.filter-section li {
+  font: 700 small-caps 11px/27px Montserrat, sans-serif;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+}
+
+.filter-section li:hover {
+  background-color: #fff;
+  border: 1px solid #3f51b5;
+  padding: 4px 29px;
+}
+
+.filter-section p {
+  font: 700 small-caps 16px/27px Montserrat, sans-serif;
+  letter-spacing: 0.8px;
+  margin-right: 20px;
+}
+
+
+/*---------------------------------end filter style-------------------------------------------*/
+
+
+
 /*---------------------------------content style-------------------------------------------*/
 main {
-  padding-top: 90px;
   background-color: #f5f5f5;
 }
 
@@ -142,6 +181,10 @@ main {
 
 .horizontal-section .post-info {
   padding: 10px 20px;
+}
+
+.horizontal-section .post {
+  max-height: 165px;
 }
 
 .horizontal-section article {
