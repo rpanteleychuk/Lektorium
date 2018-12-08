@@ -639,6 +639,40 @@ text-decoration: underline;
   margin-bottom: 10px;
 }
 
+.footer-form-search form {
+  position: relative;
+  margin: 0 auto;
+}
+
+.footer-form-search input {
+  font: 300 14px Montserrat, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.7px;
+  width: 220px;
+  outline: none;
+  border-radius: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background-color: inherit;
+  padding: 11px 0 11px 20px;
+}
+
+.footer-form-search button {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: inherit;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.footer-form-search input:focus {
+  border: 1px solid rgba(85, 172, 238, 1);
+  color: rgba(85, 172, 238, 1);
+}
 
   /*---------------------------------end footer style-------------------------------------------*/
 
