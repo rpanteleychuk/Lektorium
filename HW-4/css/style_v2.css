@@ -186,6 +186,10 @@ main {
   bottom: 20px;
 }
 
+.post-image-info a:hover {
+  font: 700 small-caps 16px Montserrat, sans-serif;
+}
+
 .post-img-stats {
   font: 400 12px Montserrat, sans-serif;
   position: absolute;
@@ -237,14 +241,12 @@ main {
 .main-post-section .post h4 {
   font: 700 18px/29px Montserrat, sans-serif;
   opacity: 0.87;
-  color: #000;
   letter-spacing: 0.9px;
 }
 
 .main-post-section .post-text {
   font: 400 16px/26px 'Open Sans', sans-serif;
   opacity: 0.87;
-  color: #000;
   letter-spacing: 0.64px;
 }
 
@@ -490,11 +492,17 @@ aside h5 {
 #email2 {
   font: 400 16px/36px 'Open Sans', sans-serif;
   color: #fff;
+  outline: none;
   letter-spacing: 0.8px;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.38);
   padding-left: 15px;
   background: rgba(48, 48, 48, 0.38);
+}
+
+#email2:focus {
+  border: 1px solid rgba(85, 172, 238, 1);
+  box-shadow: 0 0 65px 10px rgba(85, 172, 238, 0.5);
 }
 
 #email2::-webkit-input-placeholder {
@@ -777,7 +785,6 @@ select option {
 .user-name {
   font: 700 12px/27px Montserrat, sans-serif;
   opacity: 0.87;
-  color: #000;
   letter-spacing: 0.7px;
 }
 
@@ -984,7 +991,7 @@ aside .fa-dribbble {
 }
 
 .main-btn:hover {
-  box-shadow: 0 17px 24px rgba(255, 64, 129, 1);
+  box-shadow: 0 0 65px 10px rgba(255, 64, 129, 1);
   color: #ff4081;
 }
 
@@ -1009,6 +1016,10 @@ aside .fa-dribbble {
 .catgr-box a:hover {
   background-color: #3f51b5;
   color: #ff4081;
+}
+
+.post-details a:hover {
+  color: #3f51b5;
 }
 
 h4:hover {
