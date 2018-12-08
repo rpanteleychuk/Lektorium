@@ -506,7 +506,22 @@ select option {
   padding: 50px 0 50px;
 }
 
+.pages-widget,
+.twitter-widget,
+.social-widget,
+.flickr-widget,
+.news-letter {
+  width: 270px;
+}
 
+
+.widget-margin {
+  margin-right: 30px;
+}
+
+.footer-widget .main-container {
+  display: flex;
+}
 
 .footer-widget h5 {
   font: 700 18px Montserrat, sans-serif;
@@ -525,7 +540,6 @@ select option {
   border: 1px solid rgba(255, 255, 255, 0.5);
   margin-bottom: 5px;
   padding: 15px;
-  min-width: 270px;
   position: relative;
 }
 
@@ -591,6 +605,41 @@ text-decoration: underline;
   color: #55acee;
 }
 
+.flickr-widget ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flickr-widget li {
+  margin-bottom: 4px;
+}
+
+.news-letter .news-letter-form-group input {
+  font: 400 14px 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.7px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: inherit;
+  width: 238px;
+  padding: 19px 15px 16px;
+  margin-bottom: 10px;
+}
+
+.news-letter .news-letter-form-group #message {
+  font: 400 14px 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.7px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: inherit;
+  width: 238px;
+  height: 120px;
+  padding: 19px 15px 16px;
+  margin-bottom: 10px;
+}
+
+
   /*---------------------------------end footer style-------------------------------------------*/
 
 /*---------------------------------button style-------------------------------------------*/
@@ -638,6 +687,21 @@ text-decoration: underline;
   border: none;
   background-color: #303f9f;
   padding: 1px 28px 6px 31px;
+}
+
+.news-letter .sbm-btn {
+  font: 400 small-caps 18px Montserrat, sans-serif;
+  color: #fff;
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 4px;
+  background-color: #303030;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.news-letter .sbm-btn:hover {
+  color: #55acee;
+  border: 1px solid rgba(85, 172, 238, 1);
 }
 
 /*---------------------------------end button style-------------------------------------------*/
