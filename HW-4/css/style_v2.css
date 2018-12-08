@@ -171,6 +171,33 @@ main {
   margin-bottom: 20px;
 }
 
+.post-image {
+  position: relative;
+}
+
+.post-image-info {
+  font: 400 small-caps 16px Montserrat, sans-serif;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  z-index: 5;
+  left: 20px;
+  bottom: 20px;
+}
+
+.post-img-stats {
+  font: 400 12px Montserrat, sans-serif;
+  position: absolute;
+  z-index: 5;
+  right: 20px;
+  bottom: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.post-img-stats span {
+  margin-left: 15px;
+}
+
 .horizontal-section .post-header {
   padding: 10px 20px;
 }
