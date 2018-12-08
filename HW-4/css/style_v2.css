@@ -134,12 +134,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.filter-section li:hover {
-  background-color: #fff;
-  border: 1px solid #3f51b5;
-  padding: 4px 29px;
-}
-
 .filter-section p {
   font: 700 small-caps 16px/27px Montserrat, sans-serif;
   letter-spacing: 0.8px;
@@ -170,10 +164,6 @@ main {
   z-index: 5;
   left: 20px;
   bottom: 20px;
-}
-
-.post-image-info a:hover {
-  font: 700 small-caps 16px Montserrat, sans-serif;
 }
 
 .post-img-stats {
@@ -277,6 +267,7 @@ aside {
   padding: 0 30px;
   background-color: #fff;
   max-width: 330px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 aside .search-form {
@@ -412,10 +403,6 @@ aside h5 {
   margin: 0 10px 10px 0;
   border-radius: 4px;
   background-color: #eee;
-}
-
-.tags-box li:hover {
-  background-color: #ff4081;
 }
 
 .line-or {
@@ -573,11 +560,6 @@ select option {
   display: block;
 }
 
-.pages-widget li:hover {
-  color: #55acee;
-  border: 1px solid rgba(85, 172, 238, 1);
-}
-
 .pages-widget li i {
   position: absolute;
   right: 15px;
@@ -625,10 +607,6 @@ select option {
 
 .twitter-widget .twitter-function a {
   text-decoration: underline;
-}
-
-.twitter-widget a:hover {
-  color: #55acee;
 }
 
 .flickr-widget ul {
@@ -760,11 +738,6 @@ select option {
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.news-letter .sbm-btn:hover {
-  color: #55acee;
-  border: 1px solid rgba(85, 172, 238, 1);
-}
-
 /*---------------------------------end button style-------------------------------------------*/
 
 /*---------------------------------fonts style-------------------------------------------*/
@@ -799,9 +772,9 @@ select option {
 }
 
 aside .fab {
-  padding: 13px;
-  font-size: 18px;
-  width: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 16px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -809,9 +782,9 @@ aside .fab {
 }
 
 .social-widget .fab {
-  padding: 13px;
-  font-size: 18px;
-  width: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 16px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -1002,6 +975,34 @@ aside .fa-dribbble {
 .catgr-box a:hover {
   background-color: #3f51b5;
   color: #ff4081;
+}
+
+.filter-section li:hover {
+  background-color: #fff;
+  border: 1px solid #3f51b5;
+  padding: 4px 29px;
+}
+
+.post-image-info a:hover {
+  font: 700 small-caps 16px Montserrat, sans-serif;
+}
+
+.twitter-widget a:hover {
+  color: #55acee;
+}
+
+.news-letter .sbm-btn:hover {
+  color: #55acee;
+  border: 1px solid rgba(85, 172, 238, 1);
+}
+
+.pages-widget li:hover {
+  color: #55acee;
+  border: 1px solid rgba(85, 172, 238, 1);
+}
+
+.tags-box li:hover {
+  background-color: #ff4081;
 }
 
 .post-details a:hover {
