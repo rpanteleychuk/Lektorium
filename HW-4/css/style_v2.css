@@ -173,6 +173,7 @@ main {
 
 .post-image {
   position: relative;
+
 }
 
 .post-image-info {
@@ -343,7 +344,6 @@ aside h5 {
   opacity: 0.38; /*Change the opacity between 0 and 1*/
 }
 
-
 .switch-post {
   margin-top: 20px;
   font: 400 small-caps 16px/30px Montserrat, sans-serif;
@@ -372,10 +372,6 @@ aside h5 {
   text-align: center;
 }
 
-
-
-
-
 .mini-post {
   display: flex;
   padding: 15px 0;
@@ -394,6 +390,7 @@ aside h5 {
   font: 400 13px 'Open Sans', sans-serif;
   color: #a1b1bc;
 }
+
 .mini-post .fas {
   color: #2962ff;
 }
@@ -422,7 +419,6 @@ aside h5 {
 .tags-box li:hover {
   background-color: #ff4081;
 }
-
 
 .line-or {
   font: 400 16px/36px 'Open Sans', sans-serif;
@@ -541,7 +537,6 @@ select option {
   width: 270px;
 }
 
-
 .widget-margin {
   margin-right: 30px;
 }
@@ -625,7 +620,7 @@ select option {
 }
 
 .twitter-widget .twitter-function a {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .twitter-widget a:hover {
@@ -637,6 +632,7 @@ text-decoration: underline;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .flickr-widget li {
   margin-bottom: 4px;
 }
@@ -701,7 +697,7 @@ text-decoration: underline;
   color: rgba(85, 172, 238, 1);
 }
 
-  /*---------------------------------end footer style-------------------------------------------*/
+/*---------------------------------end footer style-------------------------------------------*/
 
 /*---------------------------------button style-------------------------------------------*/
 .main-btn {
