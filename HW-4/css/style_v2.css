@@ -544,6 +544,10 @@ select option {
   top: 16px;
 }
 
+.twitter-widget {
+  margin-bottom: 32px;
+}
+
 .twitter-widget .fa-twitter {
   font-size: 24px;
   color: #55acee;
@@ -680,6 +684,16 @@ aside .fab {
   font-weight: 400;
 }
 
+.social-widget .fab {
+  padding: 13px;
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-weight: 400;
+}
+
 header .fab {
   padding: 12px;
   font-size: 14px;
@@ -732,6 +746,36 @@ aside .fa-tumblr {
 }
 
 aside .fa-dribbble {
+  background: #ea4c89;
+  color: #fff;
+}
+
+.social-widget .fa-facebook-f {
+  background: #3b5999;
+  color: #fff;
+}
+
+.social-widget .fa-twitter {
+  background: #55ACEE;
+  color: #fff;
+}
+
+.social-widget .fa-vk {
+  background: #4c75a3;
+  color: #fff;
+}
+
+.social-widget .fa-pinterest {
+  background: #ff2e56;
+  color: #fff;
+}
+
+.social-widget .fa-tumblr {
+  background: #34465d;
+  color: #fff;
+}
+
+.social-widget .fa-dribbble {
   background: #ea4c89;
   color: #fff;
 }
