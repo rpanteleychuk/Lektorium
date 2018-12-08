@@ -501,7 +501,93 @@ select option {
   opacity: 0.38;
 }
 
-/*---------------------------------end footer style-------------------------------------------*/
+.footer-widget {
+  background-color: #212121;
+  padding: 50px 0 50px;
+}
+
+
+
+.footer-widget h5 {
+  font: 700 18px Montserrat, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.15px;
+  margin-bottom: 30px;
+}
+
+.pages-widget li {
+  font: 700 14px 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  padding: 15px;
+  min-width: 270px;
+  position: relative;
+}
+
+.pages-widget a {
+  display: block;
+}
+
+.pages-widget li:hover {
+  color: #55acee;
+  border: 1px solid rgba(85, 172, 238, 1);
+}
+
+.pages-widget li i {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+}
+
+.twitter-widget .fa-twitter {
+  font-size: 24px;
+  color: #55acee;
+  float: left;
+  margin: 0 15px 0;
+}
+
+.twitter-widget p {
+  font: 400 14px 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.56px;
+  margin-bottom: 10px;
+}
+
+.twitter-widget .twitter-function {
+  font: 400 12px 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitter-widget .twitter-mini-post:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.twitter-widget .twitter-mini-post {
+  padding-bottom: 13px;
+  margin-bottom: 15px;
+}
+
+.twitter-widget .twitter-function i {
+  margin-top: 5px;
+}
+
+.twitter-widget .twitter-function a {
+text-decoration: underline;
+}
+
+.twitter-widget a:hover {
+  color: #55acee;
+}
+
+  /*---------------------------------end footer style-------------------------------------------*/
 
 /*---------------------------------button style-------------------------------------------*/
 .main-btn {
@@ -773,3 +859,4 @@ h4:hover {
 }
 
 /*---------------------------------end effects style-------------------------------------------*/
+
