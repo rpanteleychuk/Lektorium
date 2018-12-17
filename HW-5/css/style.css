@@ -75,6 +75,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: -65px;
+  margin-bottom: 109px;
   padding: 30px 0 30px;
 }
 
@@ -90,6 +91,20 @@ header {
 
 .section-statistics .statistics-box:not(:last-child) {
   border-right: 1px solid rgba(113, 113, 113, 0.3);
+}
+
+.section-post-headline {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.first-post-section-img article {
+  margin: 14px;
+}
+
+.first-post-section-img .justify-content {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*---------------------------------end first post section----------------------------------*/
@@ -148,12 +163,14 @@ header {
   right: 0;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .header-form-search input {
   font: 700 14px/22px Raleway, sans-serif;
   color: #e7434e;
   width: 100%;
+  text-transform: uppercase;
   height: 58px;
   padding: 0 200px 0 30px;
   border-radius: 5px;
@@ -196,9 +213,31 @@ header {
   letter-spacing: 0.36px;
 }
 
+.section-post-headline h4 {
+  font: 400 30px/28px Raleway, sans-serif;
+  color: #343435;
+  letter-spacing: 0.3px;
+  margin-bottom: 19px;
+}
+
+.section-post-headline p {
+  font: 400 15px/22px 'Open Sans', sans-serif;
+  color: #717171;
+  letter-spacing: 0.32px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 754px;
+  margin: 0 auto;
+}
+
 /*---------------------------------end font------------------------------------------------*/
 
 /*---------------------------------fontawesome---------------------------------------------*/
+.fa-ship {
+  margin-right: 10px;
+}
+
+
 /*---------------------------------end fontawesome-----------------------------------------*/
 
 /*---------------------------------effects-------------------------------------------------*/
