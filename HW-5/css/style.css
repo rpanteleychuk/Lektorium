@@ -126,16 +126,21 @@ header {
 /*---------------------------------end flex------------------------------------------------*/
 
 /*---------------------------------buttons-------------------------------------------------*/
-.header-buttons-group ul a {
+.header-buttons-group ul .header-button {
   font: 700 15px/22px Raleway, sans-serif;
   color: #f9fafe;
   letter-spacing: 0.64px;
-  padding: 10px 36px 9px 34px;
+  padding: 10px;
+  margin-right: 25px;
 }
 
-.header-sign-in {
+.header-buttons-group ul .header-sign-in {
+  font: 700 15px/22px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 0.64px;
   border-radius: 5px;
   border: 1px solid #f9fafe;
+  padding: 9px 36px 10px 36px;
 }
 
 /*---------------------------------end buttons---------------------------------------------*/
