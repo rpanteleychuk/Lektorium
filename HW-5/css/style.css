@@ -24,7 +24,7 @@ body {
 /*---------------------------------end my style--------------------------------------------*/
 /*---------------------------------header--------------------------------------------------*/
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url("../img/header.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/header.png") no-repeat center;
   background-size: cover;
   padding: 36px 0 283px;
 }
@@ -68,6 +68,11 @@ header {
 /*---------------------------------end header----------------------------------------------*/
 
 /*---------------------------------first post section--------------------------------------*/
+
+.first-post-section {
+  padding-bottom: 92px;
+}
+
 .section-statistics {
   box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
   border-radius: 5px;
@@ -98,6 +103,10 @@ header {
   margin-bottom: 65px;
 }
 
+.first-post-section-img {
+  margin-bottom: 97px;
+}
+
 .first-post-section-img article {
   margin: 14px;
 }
@@ -107,9 +116,79 @@ header {
   justify-content: space-between;
 }
 
+/*post style*/
+
+.post-style {
+  position: relative;
+}
+
+.post-stats {
+  font: 700 14px/22px 'Open Sans', sans-serif;
+  color: #fff;
+  letter-spacing: 0.64px;
+  position: absolute;
+  z-index: 5;
+  top: 27px;
+  left: 23px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+
+.post-info {
+  position: absolute;
+  z-index: 5;
+  bottom: 22px;
+  left: 23px;
+}
+
+.post-info h6 {
+  font: 400 28px/32px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.post-info p {
+  font: 400 20px/30px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+/*end post style*/
+
+
+
 /*---------------------------------end first post section----------------------------------*/
 
 /*---------------------------------subscribe section---------------------------------------*/
+.section-subscribe-boat {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/background.png") no-repeat center;
+  background-size: cover;
+  padding-top: 190px;
+  padding-bottom: 168px;
+}
+
+.section-subscribe-boat h2 {
+  font: 700 69px/27px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 4.54px;
+  margin-bottom: 38px;
+  margin-left: 37px;
+  text-align: center;
+}
+
+.section-subscribe-boat p {
+  font: 400 28px/22px 'Open Sans', sans-serif;
+  color: #f9fafe;
+  letter-spacing: 1.3px;
+  text-align: center;
+  margin-bottom: 103px;
+}
+
+.subscribe-boat-button {
+  text-align: center;
+}
+
 /*---------------------------------end subscribe-------------------------------------------*/
 
 /*---------------------------------second post section-------------------------------------*/
@@ -141,6 +220,27 @@ header {
   border-radius: 5px;
   border: 1px solid #f9fafe;
   padding: 9px 36px 10px 36px;
+}
+
+.more-post-button {
+  text-align: center;
+}
+
+.more-post-button a {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #343434;
+  border-radius: 5px;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  padding: 20px 40px 19px 41px;
+}
+
+.subscribe-boat-button a {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #e7434e;
+  background-color: #e7434e;
+  padding: 20px 40px 19px 41px;
 }
 
 /*---------------------------------end buttons---------------------------------------------*/
@@ -265,5 +365,15 @@ header {
   background-color: #7fffd4;
 }
 
+.more-post-button a:hover {
+  background-color: #e7434e;
+  color: #fff;
+}
+
+.subscribe-boat-button a:hover {
+  background-color: #7fffd4;
+  border: #7fffd4;
+  color: #000;
+}
 
 /*---------------------------------end effects---------------------------------------------*/
