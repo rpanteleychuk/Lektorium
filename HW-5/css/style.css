@@ -237,7 +237,7 @@ footer {
 }
 
 .footer-box {
-  padding: 0 41px 0 17px;
+  padding: 0 55px 0 17px;
 }
 
 .footer-social-link {
@@ -443,12 +443,13 @@ footer {
 
 .footer-social-link .fab {
   padding: 10px;
-  font-size: 16px;
-  width: 16px;
+  font-size: 21px;
+  width: 23px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
   font-weight: 400;
+  margin-right: 15px;
 }
 
 .footer-social-link .fa-facebook-f,
