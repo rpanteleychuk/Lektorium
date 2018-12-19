@@ -217,6 +217,7 @@ header {
 
 /*---------------------------------footer--------------------------------------------------*/
 footer {
+  font-size: 100%;
   margin-top: 10px;
   padding: 0 0 50px 0;
   background-color: #404040;
@@ -226,13 +227,13 @@ footer {
 
 .footer-box h6,
 .footer-box label {
-  font: 700 14px/22px Raleway, sans-serif;
+  font: 700 0.8vw/22px Raleway, sans-serif;
   color: #fff;
   margin-bottom: 7px;
 }
 
 .footer-box p {
-  font: 400 14px/34px 'Open Sans', sans-serif;
+  font: 400 0.8vw/34px 'Open Sans', sans-serif;
   color: #fff;
 }
 
