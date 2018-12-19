@@ -218,7 +218,7 @@ header {
 /*---------------------------------footer--------------------------------------------------*/
 footer {
   margin-top: 10px;
-  padding: 50px 0;
+  padding: 0 0 50px 0;
   background-color: #404040;
   border-top: 6px solid transparent;
   border-image: 13 repeating-linear-gradient(110deg, #e7434e, #e7434e 14px, transparent 20px, transparent 20px, #e7434e 20px, #e7434e 20px,transparent 20px, transparent 24px);
@@ -237,6 +237,7 @@ footer {
 }
 
 .footer-box {
+  margin-top: 50px;
   padding: 0 55px 0 17px;
 }
 
@@ -261,6 +262,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 /*---------------------------------end flex------------------------------------------------*/
 
 /*---------------------------------buttons-------------------------------------------------*/
@@ -517,5 +519,19 @@ footer {
   -moz-transform: scale(1.3);
   -o-transform: scale(1.3);
 }
+
+
+.post-style::after {
+  background: transparent;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 100%);
+  content: "";
+  display: block;
+  height: 25%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 
 /*---------------------------------end effects---------------------------------------------*/
