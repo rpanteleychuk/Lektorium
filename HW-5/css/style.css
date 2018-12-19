@@ -482,6 +482,8 @@ footer {
 
 .header-buttons-group a:hover {
   color: #e7434e;
+  background-color: #7fffd4;
+  border-radius: 5px;
 }
 
 .header-form-search button:hover,
