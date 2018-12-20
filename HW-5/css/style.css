@@ -509,39 +509,43 @@ footer {
   color: #e7434e;
 }
 
-.post-style {
-  overflow:hidden;
-}
+/*.post-style {*/
+  /*overflow:hidden;*/
+/*}*/
 
-.post-style img {
-  -moz-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
-}
+/*.gradient a:hover > .img-fluid {*/
+  /*-moz-transition: all 1s ease-out;*/
+  /*-o-transition: all 1s ease-out;*/
+  /*-webkit-transition: all 1s ease-out;*/
+/*}*/
 
-.post-style img:hover{
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -o-transform: scale(1.3);
-}
+/*.gradient a:hover > .img-fluid {*/
+  /*-webkit-transform: scale(1.3);*/
+  /*-moz-transform: scale(1.3);*/
+  /*-o-transform: scale(1.3);*/
+/*}*/
 
 .post-stats:hover {
   background-color: #7fffd4;
   color: #000;
 }
 
-.post-style::after {
+.gradient::after {
   background: transparent;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 50%);
   content: "";
   display: block;
-  height: 25%;
+  height: 100%;
   left: 0;
   position: absolute;
   z-index: 2;
   bottom: 0;
   width: 100%;
+  border-radius: 5px;
 }
 
+.gradient:hover:after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
 
 /*---------------------------------end effects---------------------------------------------*/
