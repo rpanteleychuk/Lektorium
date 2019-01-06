@@ -47,3 +47,10 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+
+#create-section .fas {
+  color: #28a745;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
