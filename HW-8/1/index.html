@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>HW-8-1</title>
 </head>
-<body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<body data-spy="scroll" data-target="#main-nav" id="home">
+<nav id="main-nav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container">
         <a href="index.html" class="navbar-brand">L<span class="text-danger">ek</span>torium</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -216,8 +216,68 @@
     </div>
 </section>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<footer id="main-footer" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center py-4">
+                <h3>L<span class="text-danger">ek</span>torium</h3>
+                <p>Copyright <i class="far fa-copyright"></i> 2019</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="contactModal" class="modal fade text-success">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Contact Us</h5>
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" type="text">
+                        <label for="email">Email</label>
+                        <input id="email" class="form-control" type="email">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" type="text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-block btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            const hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                window.location.hash = hash;
+            });
+        }
+    });
+</script>
 </body>
 </html>
