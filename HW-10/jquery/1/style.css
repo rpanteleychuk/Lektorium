@@ -1,0 +1,26 @@
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    background: #c69500;
+    padding: 15px;
+}
+li:hover {
+    color: #3f51b5;
+    background: #ff4081;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: #1c7430;
+    margin-bottom: 50vh;
+}
+
+footer {
+    background: #3b5999;
+}
